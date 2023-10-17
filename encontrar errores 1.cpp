@@ -5,7 +5,7 @@ int suma(int *a, int *b);
 int main() 
 {
     int num1, num2, sum;
-    printf("Introduzca dos numeros para sumar: \n");
+    printf("introducir dos numeros a sumar: \n");
     scanf("%d %d", &num1, &num2);
     sum = suma(&num1, &num2);
     printf("La suma es: %d", sum);
